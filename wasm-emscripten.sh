@@ -33,8 +33,3 @@ emcmake cmake \
  -S $VTK_SOURCE_DIR \
  -B $VTK_BUILD_DIR \
  
-# Use these if you face a bunch of compiler errors from https://gitlab.kitware.com/vtk/vtk/-/issues/18263
-#  -DOPENGL_INCLUDE_DIR:PATH=${EMSDK}/upstream/emscripten/system/include \
-#  -DOPENGL_EGL_INCLUDE_DIR:PATH=${EMSDK}/upstream/emscripten/system/include \
-#  -DOPENGL_GLES2_INCLUDE_DIR:PATH=${EMSDK}/upstream/emscripten/system/include \
-#  -DOPENGL_GLES3_INCLUDE_DIR:PATH=${EMSDK}/upstream/emscripten/system/include \
